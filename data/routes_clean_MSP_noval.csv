@@ -1,0 +1,1217 @@
+node,route,delay,n_flights
+ABQ,ABQ->MSP,<0 Delay (On-Time),2
+ABQ,ABQ->MSP,< 15mins Delayed,0
+ABQ,ABQ->MSP,15-60mins Delayed,0
+ABQ,ABQ->MSP,More than 60m Delayed,0
+MSP,ABQ->MSP,<0 Delay (On-Time),0
+MSP,ABQ->MSP,< 15mins Delayed,0
+MSP,ABQ->MSP,15-60mins Delayed,0
+MSP,ABQ->MSP,More than 60m Delayed,0
+ANC,ANC->MSP,<0 Delay (On-Time),243
+ANC,ANC->MSP,< 15mins Delayed,52
+ANC,ANC->MSP,15-60mins Delayed,19
+ANC,ANC->MSP,More than 60m Delayed,9
+MSP,ANC->MSP,<0 Delay (On-Time),0
+MSP,ANC->MSP,< 15mins Delayed,0
+MSP,ANC->MSP,15-60mins Delayed,0
+MSP,ANC->MSP,More than 60m Delayed,0
+ATL,ATL->MSP,<0 Delay (On-Time),2155
+ATL,ATL->MSP,< 15mins Delayed,579
+ATL,ATL->MSP,15-60mins Delayed,210
+ATL,ATL->MSP,More than 60m Delayed,42
+MSP,ATL->MSP,<0 Delay (On-Time),0
+MSP,ATL->MSP,< 15mins Delayed,0
+MSP,ATL->MSP,15-60mins Delayed,0
+MSP,ATL->MSP,More than 60m Delayed,0
+AUS,AUS->MSP,<0 Delay (On-Time),304
+AUS,AUS->MSP,< 15mins Delayed,101
+AUS,AUS->MSP,15-60mins Delayed,35
+AUS,AUS->MSP,More than 60m Delayed,9
+MSP,AUS->MSP,<0 Delay (On-Time),0
+MSP,AUS->MSP,< 15mins Delayed,0
+MSP,AUS->MSP,15-60mins Delayed,0
+MSP,AUS->MSP,More than 60m Delayed,0
+BDL,BDL->MSP,<0 Delay (On-Time),143
+BDL,BDL->MSP,< 15mins Delayed,29
+BDL,BDL->MSP,15-60mins Delayed,10
+BDL,BDL->MSP,More than 60m Delayed,3
+MSP,BDL->MSP,<0 Delay (On-Time),0
+MSP,BDL->MSP,< 15mins Delayed,0
+MSP,BDL->MSP,15-60mins Delayed,0
+MSP,BDL->MSP,More than 60m Delayed,0
+BIL,BIL->MSP,<0 Delay (On-Time),231
+BIL,BIL->MSP,< 15mins Delayed,65
+BIL,BIL->MSP,15-60mins Delayed,20
+BIL,BIL->MSP,More than 60m Delayed,12
+MSP,BIL->MSP,<0 Delay (On-Time),0
+MSP,BIL->MSP,< 15mins Delayed,0
+MSP,BIL->MSP,15-60mins Delayed,0
+MSP,BIL->MSP,More than 60m Delayed,0
+BIS,BIS->MSP,<0 Delay (On-Time),46
+BIS,BIS->MSP,< 15mins Delayed,16
+BIS,BIS->MSP,15-60mins Delayed,17
+BIS,BIS->MSP,More than 60m Delayed,2
+MSP,BIS->MSP,<0 Delay (On-Time),0
+MSP,BIS->MSP,< 15mins Delayed,0
+MSP,BIS->MSP,15-60mins Delayed,0
+MSP,BIS->MSP,More than 60m Delayed,0
+BNA,BNA->MSP,<0 Delay (On-Time),415
+BNA,BNA->MSP,< 15mins Delayed,71
+BNA,BNA->MSP,15-60mins Delayed,25
+BNA,BNA->MSP,More than 60m Delayed,14
+MSP,BNA->MSP,<0 Delay (On-Time),0
+MSP,BNA->MSP,< 15mins Delayed,0
+MSP,BNA->MSP,15-60mins Delayed,0
+MSP,BNA->MSP,More than 60m Delayed,0
+BOI,BOI->MSP,<0 Delay (On-Time),324
+BOI,BOI->MSP,< 15mins Delayed,62
+BOI,BOI->MSP,15-60mins Delayed,18
+BOI,BOI->MSP,More than 60m Delayed,11
+MSP,BOI->MSP,<0 Delay (On-Time),0
+MSP,BOI->MSP,< 15mins Delayed,0
+MSP,BOI->MSP,15-60mins Delayed,0
+MSP,BOI->MSP,More than 60m Delayed,0
+BOS,BOS->MSP,<0 Delay (On-Time),972
+BOS,BOS->MSP,< 15mins Delayed,180
+BOS,BOS->MSP,15-60mins Delayed,61
+BOS,BOS->MSP,More than 60m Delayed,21
+MSP,BOS->MSP,<0 Delay (On-Time),0
+MSP,BOS->MSP,< 15mins Delayed,0
+MSP,BOS->MSP,15-60mins Delayed,0
+MSP,BOS->MSP,More than 60m Delayed,0
+BSM,BSM->MSP,<0 Delay (On-Time),304
+BSM,BSM->MSP,< 15mins Delayed,101
+BSM,BSM->MSP,15-60mins Delayed,35
+BSM,BSM->MSP,More than 60m Delayed,9
+MSP,BSM->MSP,<0 Delay (On-Time),0
+MSP,BSM->MSP,< 15mins Delayed,0
+MSP,BSM->MSP,15-60mins Delayed,0
+MSP,BSM->MSP,More than 60m Delayed,0
+BWI,BWI->MSP,<0 Delay (On-Time),477
+BWI,BWI->MSP,< 15mins Delayed,121
+BWI,BWI->MSP,15-60mins Delayed,30
+BWI,BWI->MSP,More than 60m Delayed,17
+MSP,BWI->MSP,<0 Delay (On-Time),0
+MSP,BWI->MSP,< 15mins Delayed,0
+MSP,BWI->MSP,15-60mins Delayed,0
+MSP,BWI->MSP,More than 60m Delayed,0
+BZN,BZN->MSP,<0 Delay (On-Time),492
+BZN,BZN->MSP,< 15mins Delayed,75
+BZN,BZN->MSP,15-60mins Delayed,34
+BZN,BZN->MSP,More than 60m Delayed,12
+MSP,BZN->MSP,<0 Delay (On-Time),0
+MSP,BZN->MSP,< 15mins Delayed,0
+MSP,BZN->MSP,15-60mins Delayed,0
+MSP,BZN->MSP,More than 60m Delayed,0
+CLT,CLT->MSP,<0 Delay (On-Time),248
+CLT,CLT->MSP,< 15mins Delayed,29
+CLT,CLT->MSP,15-60mins Delayed,14
+CLT,CLT->MSP,More than 60m Delayed,10
+MSP,CLT->MSP,<0 Delay (On-Time),0
+MSP,CLT->MSP,< 15mins Delayed,0
+MSP,CLT->MSP,15-60mins Delayed,0
+MSP,CLT->MSP,More than 60m Delayed,0
+CMH,CMH->MSP,<0 Delay (On-Time),89
+CMH,CMH->MSP,< 15mins Delayed,8
+CMH,CMH->MSP,15-60mins Delayed,3
+CMH,CMH->MSP,More than 60m Delayed,2
+MSP,CMH->MSP,<0 Delay (On-Time),0
+MSP,CMH->MSP,< 15mins Delayed,0
+MSP,CMH->MSP,15-60mins Delayed,0
+MSP,CMH->MSP,More than 60m Delayed,0
+CVG,CVG->MSP,<0 Delay (On-Time),158
+CVG,CVG->MSP,< 15mins Delayed,6
+CVG,CVG->MSP,15-60mins Delayed,6
+CVG,CVG->MSP,More than 60m Delayed,2
+MSP,CVG->MSP,<0 Delay (On-Time),0
+MSP,CVG->MSP,< 15mins Delayed,0
+MSP,CVG->MSP,15-60mins Delayed,0
+MSP,CVG->MSP,More than 60m Delayed,0
+DCA,DCA->MSP,<0 Delay (On-Time),930
+DCA,DCA->MSP,< 15mins Delayed,118
+DCA,DCA->MSP,15-60mins Delayed,45
+DCA,DCA->MSP,More than 60m Delayed,17
+MSP,DCA->MSP,<0 Delay (On-Time),0
+MSP,DCA->MSP,< 15mins Delayed,0
+MSP,DCA->MSP,15-60mins Delayed,0
+MSP,DCA->MSP,More than 60m Delayed,0
+DEN,DEN->MSP,<0 Delay (On-Time),969
+DEN,DEN->MSP,< 15mins Delayed,167
+DEN,DEN->MSP,15-60mins Delayed,47
+DEN,DEN->MSP,More than 60m Delayed,19
+MSP,DEN->MSP,<0 Delay (On-Time),0
+MSP,DEN->MSP,< 15mins Delayed,0
+MSP,DEN->MSP,15-60mins Delayed,0
+MSP,DEN->MSP,More than 60m Delayed,0
+DFW,DFW->MSP,<0 Delay (On-Time),519
+DFW,DFW->MSP,< 15mins Delayed,158
+DFW,DFW->MSP,15-60mins Delayed,58
+DFW,DFW->MSP,More than 60m Delayed,24
+MSP,DFW->MSP,<0 Delay (On-Time),0
+MSP,DFW->MSP,< 15mins Delayed,0
+MSP,DFW->MSP,15-60mins Delayed,0
+MSP,DFW->MSP,More than 60m Delayed,0
+DLH,DLH->MSP,<0 Delay (On-Time),7
+DLH,DLH->MSP,< 15mins Delayed,2
+DLH,DLH->MSP,15-60mins Delayed,1
+DLH,DLH->MSP,More than 60m Delayed,1
+MSP,DLH->MSP,<0 Delay (On-Time),0
+MSP,DLH->MSP,< 15mins Delayed,0
+MSP,DLH->MSP,15-60mins Delayed,0
+MSP,DLH->MSP,More than 60m Delayed,0
+DTW,DTW->MSP,<0 Delay (On-Time),1626
+DTW,DTW->MSP,< 15mins Delayed,252
+DTW,DTW->MSP,15-60mins Delayed,110
+DTW,DTW->MSP,More than 60m Delayed,29
+MSP,DTW->MSP,<0 Delay (On-Time),0
+MSP,DTW->MSP,< 15mins Delayed,0
+MSP,DTW->MSP,15-60mins Delayed,0
+MSP,DTW->MSP,More than 60m Delayed,0
+EWR,EWR->MSP,<0 Delay (On-Time),77
+EWR,EWR->MSP,< 15mins Delayed,25
+EWR,EWR->MSP,15-60mins Delayed,8
+EWR,EWR->MSP,More than 60m Delayed,4
+MSP,EWR->MSP,<0 Delay (On-Time),0
+MSP,EWR->MSP,< 15mins Delayed,0
+MSP,EWR->MSP,15-60mins Delayed,0
+MSP,EWR->MSP,More than 60m Delayed,0
+FAR,FAR->MSP,<0 Delay (On-Time),229
+FAR,FAR->MSP,< 15mins Delayed,47
+FAR,FAR->MSP,15-60mins Delayed,15
+FAR,FAR->MSP,More than 60m Delayed,10
+MSP,FAR->MSP,<0 Delay (On-Time),0
+MSP,FAR->MSP,< 15mins Delayed,0
+MSP,FAR->MSP,15-60mins Delayed,0
+MSP,FAR->MSP,More than 60m Delayed,0
+FCA,FCA->MSP,<0 Delay (On-Time),163
+FCA,FCA->MSP,< 15mins Delayed,34
+FCA,FCA->MSP,15-60mins Delayed,9
+FCA,FCA->MSP,More than 60m Delayed,0
+MSP,FCA->MSP,<0 Delay (On-Time),0
+MSP,FCA->MSP,< 15mins Delayed,0
+MSP,FCA->MSP,15-60mins Delayed,0
+MSP,FCA->MSP,More than 60m Delayed,0
+FLL,FLL->MSP,<0 Delay (On-Time),256
+FLL,FLL->MSP,< 15mins Delayed,51
+FLL,FLL->MSP,15-60mins Delayed,22
+FLL,FLL->MSP,More than 60m Delayed,7
+MSP,FLL->MSP,<0 Delay (On-Time),0
+MSP,FLL->MSP,< 15mins Delayed,0
+MSP,FLL->MSP,15-60mins Delayed,0
+MSP,FLL->MSP,More than 60m Delayed,0
+FSD,FSD->MSP,<0 Delay (On-Time),53
+FSD,FSD->MSP,< 15mins Delayed,21
+FSD,FSD->MSP,15-60mins Delayed,17
+FSD,FSD->MSP,More than 60m Delayed,4
+MSP,FSD->MSP,<0 Delay (On-Time),0
+MSP,FSD->MSP,< 15mins Delayed,0
+MSP,FSD->MSP,15-60mins Delayed,0
+MSP,FSD->MSP,More than 60m Delayed,0
+GEG,GEG->MSP,<0 Delay (On-Time),408
+GEG,GEG->MSP,< 15mins Delayed,72
+GEG,GEG->MSP,15-60mins Delayed,23
+GEG,GEG->MSP,More than 60m Delayed,11
+MSP,GEG->MSP,<0 Delay (On-Time),0
+MSP,GEG->MSP,< 15mins Delayed,0
+MSP,GEG->MSP,15-60mins Delayed,0
+MSP,GEG->MSP,More than 60m Delayed,0
+GRB,GRB->MSP,<0 Delay (On-Time),14
+GRB,GRB->MSP,< 15mins Delayed,1
+GRB,GRB->MSP,15-60mins Delayed,0
+GRB,GRB->MSP,More than 60m Delayed,0
+MSP,GRB->MSP,<0 Delay (On-Time),0
+MSP,GRB->MSP,< 15mins Delayed,0
+MSP,GRB->MSP,15-60mins Delayed,0
+MSP,GRB->MSP,More than 60m Delayed,0
+GRR,GRR->MSP,<0 Delay (On-Time),345
+GRR,GRR->MSP,< 15mins Delayed,42
+GRR,GRR->MSP,15-60mins Delayed,15
+GRR,GRR->MSP,More than 60m Delayed,12
+MSP,GRR->MSP,<0 Delay (On-Time),0
+MSP,GRR->MSP,< 15mins Delayed,0
+MSP,GRR->MSP,15-60mins Delayed,0
+MSP,GRR->MSP,More than 60m Delayed,0
+HDN,HDN->MSP,<0 Delay (On-Time),15
+HDN,HDN->MSP,< 15mins Delayed,5
+HDN,HDN->MSP,15-60mins Delayed,5
+HDN,HDN->MSP,More than 60m Delayed,0
+MSP,HDN->MSP,<0 Delay (On-Time),0
+MSP,HDN->MSP,< 15mins Delayed,0
+MSP,HDN->MSP,15-60mins Delayed,0
+MSP,HDN->MSP,More than 60m Delayed,0
+HIK,HIK->MSP,<0 Delay (On-Time),58
+HIK,HIK->MSP,< 15mins Delayed,9
+HIK,HIK->MSP,15-60mins Delayed,9
+HIK,HIK->MSP,More than 60m Delayed,0
+MSP,HIK->MSP,<0 Delay (On-Time),0
+MSP,HIK->MSP,< 15mins Delayed,0
+MSP,HIK->MSP,15-60mins Delayed,0
+MSP,HIK->MSP,More than 60m Delayed,0
+HNL,HNL->MSP,<0 Delay (On-Time),58
+HNL,HNL->MSP,< 15mins Delayed,9
+HNL,HNL->MSP,15-60mins Delayed,9
+HNL,HNL->MSP,More than 60m Delayed,0
+MSP,HNL->MSP,<0 Delay (On-Time),0
+MSP,HNL->MSP,< 15mins Delayed,0
+MSP,HNL->MSP,15-60mins Delayed,0
+MSP,HNL->MSP,More than 60m Delayed,0
+IAH,IAH->MSP,<0 Delay (On-Time),49
+IAH,IAH->MSP,< 15mins Delayed,13
+IAH,IAH->MSP,15-60mins Delayed,12
+IAH,IAH->MSP,More than 60m Delayed,5
+MSP,IAH->MSP,<0 Delay (On-Time),0
+MSP,IAH->MSP,< 15mins Delayed,0
+MSP,IAH->MSP,15-60mins Delayed,0
+MSP,IAH->MSP,More than 60m Delayed,0
+IND,IND->MSP,<0 Delay (On-Time),285
+IND,IND->MSP,< 15mins Delayed,30
+IND,IND->MSP,15-60mins Delayed,11
+IND,IND->MSP,More than 60m Delayed,11
+MSP,IND->MSP,<0 Delay (On-Time),0
+MSP,IND->MSP,< 15mins Delayed,0
+MSP,IND->MSP,15-60mins Delayed,0
+MSP,IND->MSP,More than 60m Delayed,0
+JAC,JAC->MSP,<0 Delay (On-Time),15
+JAC,JAC->MSP,< 15mins Delayed,5
+JAC,JAC->MSP,15-60mins Delayed,5
+JAC,JAC->MSP,More than 60m Delayed,6
+MSP,JAC->MSP,<0 Delay (On-Time),0
+MSP,JAC->MSP,< 15mins Delayed,0
+MSP,JAC->MSP,15-60mins Delayed,0
+MSP,JAC->MSP,More than 60m Delayed,0
+JAX,JAX->MSP,<0 Delay (On-Time),4
+JAX,JAX->MSP,< 15mins Delayed,0
+JAX,JAX->MSP,15-60mins Delayed,0
+JAX,JAX->MSP,More than 60m Delayed,0
+MSP,JAX->MSP,<0 Delay (On-Time),0
+MSP,JAX->MSP,< 15mins Delayed,0
+MSP,JAX->MSP,15-60mins Delayed,0
+MSP,JAX->MSP,More than 60m Delayed,0
+JFK,JFK->MSP,<0 Delay (On-Time),703
+JFK,JFK->MSP,< 15mins Delayed,79
+JFK,JFK->MSP,15-60mins Delayed,40
+JFK,JFK->MSP,More than 60m Delayed,26
+MSP,JFK->MSP,<0 Delay (On-Time),0
+MSP,JFK->MSP,< 15mins Delayed,0
+MSP,JFK->MSP,15-60mins Delayed,0
+MSP,JFK->MSP,More than 60m Delayed,0
+LAS,LAS->MSP,<0 Delay (On-Time),1051
+LAS,LAS->MSP,< 15mins Delayed,220
+LAS,LAS->MSP,15-60mins Delayed,52
+LAS,LAS->MSP,More than 60m Delayed,23
+MSP,LAS->MSP,<0 Delay (On-Time),0
+MSP,LAS->MSP,< 15mins Delayed,0
+MSP,LAS->MSP,15-60mins Delayed,0
+MSP,LAS->MSP,More than 60m Delayed,0
+LAX,LAX->MSP,<0 Delay (On-Time),1091
+LAX,LAX->MSP,< 15mins Delayed,363
+LAX,LAX->MSP,15-60mins Delayed,129
+LAX,LAX->MSP,More than 60m Delayed,29
+MSP,LAX->MSP,<0 Delay (On-Time),0
+MSP,LAX->MSP,< 15mins Delayed,0
+MSP,LAX->MSP,15-60mins Delayed,0
+MSP,LAX->MSP,More than 60m Delayed,0
+LGA,LGA->MSP,<0 Delay (On-Time),989
+LGA,LGA->MSP,< 15mins Delayed,126
+LGA,LGA->MSP,15-60mins Delayed,60
+LGA,LGA->MSP,More than 60m Delayed,34
+MSP,LGA->MSP,<0 Delay (On-Time),0
+MSP,LGA->MSP,< 15mins Delayed,0
+MSP,LGA->MSP,15-60mins Delayed,0
+MSP,LGA->MSP,More than 60m Delayed,0
+MCI,MCI->MSP,<0 Delay (On-Time),138
+MCI,MCI->MSP,< 15mins Delayed,21
+MCI,MCI->MSP,15-60mins Delayed,13
+MCI,MCI->MSP,More than 60m Delayed,3
+MSP,MCI->MSP,<0 Delay (On-Time),0
+MSP,MCI->MSP,< 15mins Delayed,0
+MSP,MCI->MSP,15-60mins Delayed,0
+MSP,MCI->MSP,More than 60m Delayed,0
+MCO,MCO->MSP,<0 Delay (On-Time),884
+MCO,MCO->MSP,< 15mins Delayed,137
+MCO,MCO->MSP,15-60mins Delayed,52
+MCO,MCO->MSP,More than 60m Delayed,24
+MSP,MCO->MSP,<0 Delay (On-Time),0
+MSP,MCO->MSP,< 15mins Delayed,0
+MSP,MCO->MSP,15-60mins Delayed,0
+MSP,MCO->MSP,More than 60m Delayed,0
+MEM,MEM->MSP,<0 Delay (On-Time),19
+MEM,MEM->MSP,< 15mins Delayed,1
+MEM,MEM->MSP,15-60mins Delayed,0
+MEM,MEM->MSP,More than 60m Delayed,2
+MSP,MEM->MSP,<0 Delay (On-Time),0
+MSP,MEM->MSP,< 15mins Delayed,0
+MSP,MEM->MSP,15-60mins Delayed,0
+MSP,MEM->MSP,More than 60m Delayed,0
+MIA,MIA->MSP,<0 Delay (On-Time),282
+MIA,MIA->MSP,< 15mins Delayed,69
+MIA,MIA->MSP,15-60mins Delayed,18
+MIA,MIA->MSP,More than 60m Delayed,6
+MSP,MIA->MSP,<0 Delay (On-Time),0
+MSP,MIA->MSP,< 15mins Delayed,0
+MSP,MIA->MSP,15-60mins Delayed,0
+MSP,MIA->MSP,More than 60m Delayed,0
+MKE,MKE->MSP,<0 Delay (On-Time),287
+MKE,MKE->MSP,< 15mins Delayed,37
+MKE,MKE->MSP,15-60mins Delayed,21
+MKE,MKE->MSP,More than 60m Delayed,6
+MSP,MKE->MSP,<0 Delay (On-Time),0
+MSP,MKE->MSP,< 15mins Delayed,0
+MSP,MKE->MSP,15-60mins Delayed,0
+MSP,MKE->MSP,More than 60m Delayed,0
+MSN,MSN->MSP,<0 Delay (On-Time),73
+MSN,MSN->MSP,< 15mins Delayed,12
+MSN,MSN->MSP,15-60mins Delayed,5
+MSN,MSN->MSP,More than 60m Delayed,2
+MSP,MSN->MSP,<0 Delay (On-Time),0
+MSP,MSN->MSP,< 15mins Delayed,0
+MSP,MSN->MSP,15-60mins Delayed,0
+MSP,MSN->MSP,More than 60m Delayed,0
+MSO,MSO->MSP,<0 Delay (On-Time),234
+MSO,MSO->MSP,< 15mins Delayed,51
+MSO,MSO->MSP,15-60mins Delayed,16
+MSO,MSO->MSP,More than 60m Delayed,13
+MSP,MSO->MSP,<0 Delay (On-Time),0
+MSP,MSO->MSP,< 15mins Delayed,0
+MSP,MSO->MSP,15-60mins Delayed,0
+MSP,MSO->MSP,More than 60m Delayed,0
+MSP,MSP->ABQ,<0 Delay (On-Time),0
+MSP,MSP->ABQ,< 15mins Delayed,0
+MSP,MSP->ABQ,15-60mins Delayed,0
+MSP,MSP->ABQ,More than 60m Delayed,0
+ABQ,MSP->ABQ,<0 Delay (On-Time),1
+ABQ,MSP->ABQ,< 15mins Delayed,0
+ABQ,MSP->ABQ,15-60mins Delayed,0
+ABQ,MSP->ABQ,More than 60m Delayed,0
+MSP,MSP->ANC,<0 Delay (On-Time),0
+MSP,MSP->ANC,< 15mins Delayed,0
+MSP,MSP->ANC,15-60mins Delayed,0
+MSP,MSP->ANC,More than 60m Delayed,0
+ANC,MSP->ANC,<0 Delay (On-Time),225
+ANC,MSP->ANC,< 15mins Delayed,69
+ANC,MSP->ANC,15-60mins Delayed,23
+ANC,MSP->ANC,More than 60m Delayed,7
+MSP,MSP->ATL,<0 Delay (On-Time),0
+MSP,MSP->ATL,< 15mins Delayed,0
+MSP,MSP->ATL,15-60mins Delayed,0
+MSP,MSP->ATL,More than 60m Delayed,0
+ATL,MSP->ATL,<0 Delay (On-Time),2302
+ATL,MSP->ATL,< 15mins Delayed,537
+ATL,MSP->ATL,15-60mins Delayed,116
+ATL,MSP->ATL,More than 60m Delayed,41
+MSP,MSP->AUS,<0 Delay (On-Time),0
+MSP,MSP->AUS,< 15mins Delayed,0
+MSP,MSP->AUS,15-60mins Delayed,0
+MSP,MSP->AUS,More than 60m Delayed,0
+AUS,MSP->AUS,<0 Delay (On-Time),340
+AUS,MSP->AUS,< 15mins Delayed,71
+AUS,MSP->AUS,15-60mins Delayed,29
+AUS,MSP->AUS,More than 60m Delayed,12
+MSP,MSP->BDL,<0 Delay (On-Time),0
+MSP,MSP->BDL,< 15mins Delayed,0
+MSP,MSP->BDL,15-60mins Delayed,0
+MSP,MSP->BDL,More than 60m Delayed,0
+BDL,MSP->BDL,<0 Delay (On-Time),139
+BDL,MSP->BDL,< 15mins Delayed,26
+BDL,MSP->BDL,15-60mins Delayed,13
+BDL,MSP->BDL,More than 60m Delayed,6
+MSP,MSP->BIL,<0 Delay (On-Time),0
+MSP,MSP->BIL,< 15mins Delayed,0
+MSP,MSP->BIL,15-60mins Delayed,0
+MSP,MSP->BIL,More than 60m Delayed,0
+BIL,MSP->BIL,<0 Delay (On-Time),280
+BIL,MSP->BIL,< 15mins Delayed,23
+BIL,MSP->BIL,15-60mins Delayed,20
+BIL,MSP->BIL,More than 60m Delayed,5
+MSP,MSP->BIS,<0 Delay (On-Time),0
+MSP,MSP->BIS,< 15mins Delayed,0
+MSP,MSP->BIS,15-60mins Delayed,0
+MSP,MSP->BIS,More than 60m Delayed,0
+BIS,MSP->BIS,<0 Delay (On-Time),61
+BIS,MSP->BIS,< 15mins Delayed,13
+BIS,MSP->BIS,15-60mins Delayed,6
+BIS,MSP->BIS,More than 60m Delayed,0
+MSP,MSP->BNA,<0 Delay (On-Time),0
+MSP,MSP->BNA,< 15mins Delayed,0
+MSP,MSP->BNA,15-60mins Delayed,0
+MSP,MSP->BNA,More than 60m Delayed,0
+BNA,MSP->BNA,<0 Delay (On-Time),423
+BNA,MSP->BNA,< 15mins Delayed,60
+BNA,MSP->BNA,15-60mins Delayed,30
+BNA,MSP->BNA,More than 60m Delayed,17
+MSP,MSP->BOI,<0 Delay (On-Time),0
+MSP,MSP->BOI,< 15mins Delayed,0
+MSP,MSP->BOI,15-60mins Delayed,0
+MSP,MSP->BOI,More than 60m Delayed,0
+BOI,MSP->BOI,<0 Delay (On-Time),333
+BOI,MSP->BOI,< 15mins Delayed,57
+BOI,MSP->BOI,15-60mins Delayed,20
+BOI,MSP->BOI,More than 60m Delayed,7
+MSP,MSP->BOS,<0 Delay (On-Time),0
+MSP,MSP->BOS,< 15mins Delayed,0
+MSP,MSP->BOS,15-60mins Delayed,0
+MSP,MSP->BOS,More than 60m Delayed,0
+BOS,MSP->BOS,<0 Delay (On-Time),926
+BOS,MSP->BOS,< 15mins Delayed,195
+BOS,MSP->BOS,15-60mins Delayed,75
+BOS,MSP->BOS,More than 60m Delayed,30
+MSP,MSP->BSM,<0 Delay (On-Time),0
+MSP,MSP->BSM,< 15mins Delayed,0
+MSP,MSP->BSM,15-60mins Delayed,0
+MSP,MSP->BSM,More than 60m Delayed,0
+BSM,MSP->BSM,<0 Delay (On-Time),340
+BSM,MSP->BSM,< 15mins Delayed,71
+BSM,MSP->BSM,15-60mins Delayed,29
+BSM,MSP->BSM,More than 60m Delayed,12
+MSP,MSP->BWI,<0 Delay (On-Time),0
+MSP,MSP->BWI,< 15mins Delayed,0
+MSP,MSP->BWI,15-60mins Delayed,0
+MSP,MSP->BWI,More than 60m Delayed,0
+BWI,MSP->BWI,<0 Delay (On-Time),520
+BWI,MSP->BWI,< 15mins Delayed,85
+BWI,MSP->BWI,15-60mins Delayed,31
+BWI,MSP->BWI,More than 60m Delayed,9
+MSP,MSP->BZN,<0 Delay (On-Time),0
+MSP,MSP->BZN,< 15mins Delayed,0
+MSP,MSP->BZN,15-60mins Delayed,0
+MSP,MSP->BZN,More than 60m Delayed,0
+BZN,MSP->BZN,<0 Delay (On-Time),515
+BZN,MSP->BZN,< 15mins Delayed,61
+BZN,MSP->BZN,15-60mins Delayed,26
+BZN,MSP->BZN,More than 60m Delayed,13
+MSP,MSP->CLE,<0 Delay (On-Time),0
+MSP,MSP->CLE,< 15mins Delayed,0
+MSP,MSP->CLE,15-60mins Delayed,0
+MSP,MSP->CLE,More than 60m Delayed,0
+CLE,MSP->CLE,<0 Delay (On-Time),1
+CLE,MSP->CLE,< 15mins Delayed,0
+CLE,MSP->CLE,15-60mins Delayed,0
+CLE,MSP->CLE,More than 60m Delayed,0
+MSP,MSP->CLT,<0 Delay (On-Time),0
+MSP,MSP->CLT,< 15mins Delayed,0
+MSP,MSP->CLT,15-60mins Delayed,0
+MSP,MSP->CLT,More than 60m Delayed,0
+CLT,MSP->CLT,<0 Delay (On-Time),218
+CLT,MSP->CLT,< 15mins Delayed,50
+CLT,MSP->CLT,15-60mins Delayed,17
+CLT,MSP->CLT,More than 60m Delayed,12
+MSP,MSP->CMH,<0 Delay (On-Time),0
+MSP,MSP->CMH,< 15mins Delayed,0
+MSP,MSP->CMH,15-60mins Delayed,0
+MSP,MSP->CMH,More than 60m Delayed,0
+CMH,MSP->CMH,<0 Delay (On-Time),83
+CMH,MSP->CMH,< 15mins Delayed,13
+CMH,MSP->CMH,15-60mins Delayed,5
+CMH,MSP->CMH,More than 60m Delayed,3
+MSP,MSP->CVG,<0 Delay (On-Time),0
+MSP,MSP->CVG,< 15mins Delayed,0
+MSP,MSP->CVG,15-60mins Delayed,0
+MSP,MSP->CVG,More than 60m Delayed,0
+CVG,MSP->CVG,<0 Delay (On-Time),116
+CVG,MSP->CVG,< 15mins Delayed,32
+CVG,MSP->CVG,15-60mins Delayed,16
+CVG,MSP->CVG,More than 60m Delayed,3
+MSP,MSP->DCA,<0 Delay (On-Time),0
+MSP,MSP->DCA,< 15mins Delayed,0
+MSP,MSP->DCA,15-60mins Delayed,0
+MSP,MSP->DCA,More than 60m Delayed,0
+DCA,MSP->DCA,<0 Delay (On-Time),920
+DCA,MSP->DCA,< 15mins Delayed,119
+DCA,MSP->DCA,15-60mins Delayed,43
+DCA,MSP->DCA,More than 60m Delayed,26
+MSP,MSP->DEN,<0 Delay (On-Time),0
+MSP,MSP->DEN,< 15mins Delayed,0
+MSP,MSP->DEN,15-60mins Delayed,0
+MSP,MSP->DEN,More than 60m Delayed,0
+DEN,MSP->DEN,<0 Delay (On-Time),1038
+DEN,MSP->DEN,< 15mins Delayed,118
+DEN,MSP->DEN,15-60mins Delayed,33
+DEN,MSP->DEN,More than 60m Delayed,14
+MSP,MSP->DFW,<0 Delay (On-Time),0
+MSP,MSP->DFW,< 15mins Delayed,0
+MSP,MSP->DFW,15-60mins Delayed,0
+MSP,MSP->DFW,More than 60m Delayed,0
+DFW,MSP->DFW,<0 Delay (On-Time),572
+DFW,MSP->DFW,< 15mins Delayed,95
+DFW,MSP->DFW,15-60mins Delayed,54
+DFW,MSP->DFW,More than 60m Delayed,39
+MSP,MSP->DLH,<0 Delay (On-Time),0
+MSP,MSP->DLH,< 15mins Delayed,0
+MSP,MSP->DLH,15-60mins Delayed,0
+MSP,MSP->DLH,More than 60m Delayed,0
+DLH,MSP->DLH,<0 Delay (On-Time),8
+DLH,MSP->DLH,< 15mins Delayed,1
+DLH,MSP->DLH,15-60mins Delayed,1
+DLH,MSP->DLH,More than 60m Delayed,1
+MSP,MSP->DTW,<0 Delay (On-Time),0
+MSP,MSP->DTW,< 15mins Delayed,0
+MSP,MSP->DTW,15-60mins Delayed,0
+MSP,MSP->DTW,More than 60m Delayed,0
+DTW,MSP->DTW,<0 Delay (On-Time),1662
+DTW,MSP->DTW,< 15mins Delayed,250
+DTW,MSP->DTW,15-60mins Delayed,74
+DTW,MSP->DTW,More than 60m Delayed,22
+MSP,MSP->EWR,<0 Delay (On-Time),0
+MSP,MSP->EWR,< 15mins Delayed,0
+MSP,MSP->EWR,15-60mins Delayed,0
+MSP,MSP->EWR,More than 60m Delayed,0
+EWR,MSP->EWR,<0 Delay (On-Time),70
+EWR,MSP->EWR,< 15mins Delayed,19
+EWR,MSP->EWR,15-60mins Delayed,16
+EWR,MSP->EWR,More than 60m Delayed,9
+MSP,MSP->FAR,<0 Delay (On-Time),0
+MSP,MSP->FAR,< 15mins Delayed,0
+MSP,MSP->FAR,15-60mins Delayed,0
+MSP,MSP->FAR,More than 60m Delayed,0
+FAR,MSP->FAR,<0 Delay (On-Time),241
+FAR,MSP->FAR,< 15mins Delayed,35
+FAR,MSP->FAR,15-60mins Delayed,18
+FAR,MSP->FAR,More than 60m Delayed,7
+MSP,MSP->FCA,<0 Delay (On-Time),0
+MSP,MSP->FCA,< 15mins Delayed,0
+MSP,MSP->FCA,15-60mins Delayed,0
+MSP,MSP->FCA,More than 60m Delayed,0
+FCA,MSP->FCA,<0 Delay (On-Time),181
+FCA,MSP->FCA,< 15mins Delayed,19
+FCA,MSP->FCA,15-60mins Delayed,6
+FCA,MSP->FCA,More than 60m Delayed,0
+MSP,MSP->FLL,<0 Delay (On-Time),0
+MSP,MSP->FLL,< 15mins Delayed,0
+MSP,MSP->FLL,15-60mins Delayed,0
+MSP,MSP->FLL,More than 60m Delayed,0
+FLL,MSP->FLL,<0 Delay (On-Time),257
+FLL,MSP->FLL,< 15mins Delayed,64
+FLL,MSP->FLL,15-60mins Delayed,10
+FLL,MSP->FLL,More than 60m Delayed,4
+MSP,MSP->FSD,<0 Delay (On-Time),0
+MSP,MSP->FSD,< 15mins Delayed,0
+MSP,MSP->FSD,15-60mins Delayed,0
+MSP,MSP->FSD,More than 60m Delayed,0
+FSD,MSP->FSD,<0 Delay (On-Time),64
+FSD,MSP->FSD,< 15mins Delayed,23
+FSD,MSP->FSD,15-60mins Delayed,3
+FSD,MSP->FSD,More than 60m Delayed,4
+MSP,MSP->GEG,<0 Delay (On-Time),0
+MSP,MSP->GEG,< 15mins Delayed,0
+MSP,MSP->GEG,15-60mins Delayed,0
+MSP,MSP->GEG,More than 60m Delayed,0
+GEG,MSP->GEG,<0 Delay (On-Time),423
+GEG,MSP->GEG,< 15mins Delayed,56
+GEG,MSP->GEG,15-60mins Delayed,25
+GEG,MSP->GEG,More than 60m Delayed,10
+MSP,MSP->GRB,<0 Delay (On-Time),0
+MSP,MSP->GRB,< 15mins Delayed,0
+MSP,MSP->GRB,15-60mins Delayed,0
+MSP,MSP->GRB,More than 60m Delayed,0
+GRB,MSP->GRB,<0 Delay (On-Time),12
+GRB,MSP->GRB,< 15mins Delayed,0
+GRB,MSP->GRB,15-60mins Delayed,1
+GRB,MSP->GRB,More than 60m Delayed,2
+MSP,MSP->GRR,<0 Delay (On-Time),0
+MSP,MSP->GRR,< 15mins Delayed,0
+MSP,MSP->GRR,15-60mins Delayed,0
+MSP,MSP->GRR,More than 60m Delayed,0
+GRR,MSP->GRR,<0 Delay (On-Time),333
+GRR,MSP->GRR,< 15mins Delayed,48
+GRR,MSP->GRR,15-60mins Delayed,23
+GRR,MSP->GRR,More than 60m Delayed,9
+MSP,MSP->HDN,<0 Delay (On-Time),0
+MSP,MSP->HDN,< 15mins Delayed,0
+MSP,MSP->HDN,15-60mins Delayed,0
+MSP,MSP->HDN,More than 60m Delayed,0
+HDN,MSP->HDN,<0 Delay (On-Time),23
+HDN,MSP->HDN,< 15mins Delayed,1
+HDN,MSP->HDN,15-60mins Delayed,1
+HDN,MSP->HDN,More than 60m Delayed,0
+MSP,MSP->HIK,<0 Delay (On-Time),0
+MSP,MSP->HIK,< 15mins Delayed,0
+MSP,MSP->HIK,15-60mins Delayed,0
+MSP,MSP->HIK,More than 60m Delayed,0
+HIK,MSP->HIK,<0 Delay (On-Time),44
+HIK,MSP->HIK,< 15mins Delayed,24
+HIK,MSP->HIK,15-60mins Delayed,6
+HIK,MSP->HIK,More than 60m Delayed,1
+MSP,MSP->HNL,<0 Delay (On-Time),0
+MSP,MSP->HNL,< 15mins Delayed,0
+MSP,MSP->HNL,15-60mins Delayed,0
+MSP,MSP->HNL,More than 60m Delayed,0
+HNL,MSP->HNL,<0 Delay (On-Time),44
+HNL,MSP->HNL,< 15mins Delayed,24
+HNL,MSP->HNL,15-60mins Delayed,6
+HNL,MSP->HNL,More than 60m Delayed,1
+MSP,MSP->IAH,<0 Delay (On-Time),0
+MSP,MSP->IAH,< 15mins Delayed,0
+MSP,MSP->IAH,15-60mins Delayed,0
+MSP,MSP->IAH,More than 60m Delayed,0
+IAH,MSP->IAH,<0 Delay (On-Time),39
+IAH,MSP->IAH,< 15mins Delayed,25
+IAH,MSP->IAH,15-60mins Delayed,12
+IAH,MSP->IAH,More than 60m Delayed,4
+MSP,MSP->IND,<0 Delay (On-Time),0
+MSP,MSP->IND,< 15mins Delayed,0
+MSP,MSP->IND,15-60mins Delayed,0
+MSP,MSP->IND,More than 60m Delayed,0
+IND,MSP->IND,<0 Delay (On-Time),278
+IND,MSP->IND,< 15mins Delayed,37
+IND,MSP->IND,15-60mins Delayed,13
+IND,MSP->IND,More than 60m Delayed,10
+MSP,MSP->JAC,<0 Delay (On-Time),0
+MSP,MSP->JAC,< 15mins Delayed,0
+MSP,MSP->JAC,15-60mins Delayed,0
+MSP,MSP->JAC,More than 60m Delayed,0
+JAC,MSP->JAC,<0 Delay (On-Time),21
+JAC,MSP->JAC,< 15mins Delayed,5
+JAC,MSP->JAC,15-60mins Delayed,2
+JAC,MSP->JAC,More than 60m Delayed,3
+MSP,MSP->JAX,<0 Delay (On-Time),0
+MSP,MSP->JAX,< 15mins Delayed,0
+MSP,MSP->JAX,15-60mins Delayed,0
+MSP,MSP->JAX,More than 60m Delayed,0
+JAX,MSP->JAX,<0 Delay (On-Time),4
+JAX,MSP->JAX,< 15mins Delayed,0
+JAX,MSP->JAX,15-60mins Delayed,0
+JAX,MSP->JAX,More than 60m Delayed,0
+MSP,MSP->JFK,<0 Delay (On-Time),0
+MSP,MSP->JFK,< 15mins Delayed,0
+MSP,MSP->JFK,15-60mins Delayed,0
+MSP,MSP->JFK,More than 60m Delayed,0
+JFK,MSP->JFK,<0 Delay (On-Time),656
+JFK,MSP->JFK,< 15mins Delayed,123
+JFK,MSP->JFK,15-60mins Delayed,50
+JFK,MSP->JFK,More than 60m Delayed,20
+MSP,MSP->LAS,<0 Delay (On-Time),0
+MSP,MSP->LAS,< 15mins Delayed,0
+MSP,MSP->LAS,15-60mins Delayed,0
+MSP,MSP->LAS,More than 60m Delayed,0
+LAS,MSP->LAS,<0 Delay (On-Time),1116
+LAS,MSP->LAS,< 15mins Delayed,149
+LAS,MSP->LAS,15-60mins Delayed,53
+LAS,MSP->LAS,More than 60m Delayed,28
+MSP,MSP->LAX,<0 Delay (On-Time),0
+MSP,MSP->LAX,< 15mins Delayed,0
+MSP,MSP->LAX,15-60mins Delayed,0
+MSP,MSP->LAX,More than 60m Delayed,0
+LAX,MSP->LAX,<0 Delay (On-Time),1182
+LAX,MSP->LAX,< 15mins Delayed,308
+LAX,MSP->LAX,15-60mins Delayed,108
+LAX,MSP->LAX,More than 60m Delayed,20
+MSP,MSP->LGA,<0 Delay (On-Time),0
+MSP,MSP->LGA,< 15mins Delayed,0
+MSP,MSP->LGA,15-60mins Delayed,0
+MSP,MSP->LGA,More than 60m Delayed,0
+LGA,MSP->LGA,<0 Delay (On-Time),923
+LGA,MSP->LGA,< 15mins Delayed,164
+LGA,MSP->LGA,15-60mins Delayed,81
+LGA,MSP->LGA,More than 60m Delayed,42
+MSP,MSP->MCI,<0 Delay (On-Time),0
+MSP,MSP->MCI,< 15mins Delayed,0
+MSP,MSP->MCI,15-60mins Delayed,0
+MSP,MSP->MCI,More than 60m Delayed,0
+MCI,MSP->MCI,<0 Delay (On-Time),144
+MCI,MSP->MCI,< 15mins Delayed,19
+MCI,MSP->MCI,15-60mins Delayed,10
+MCI,MSP->MCI,More than 60m Delayed,2
+MSP,MSP->MCO,<0 Delay (On-Time),0
+MSP,MSP->MCO,< 15mins Delayed,0
+MSP,MSP->MCO,15-60mins Delayed,0
+MSP,MSP->MCO,More than 60m Delayed,0
+MCO,MSP->MCO,<0 Delay (On-Time),846
+MCO,MSP->MCO,< 15mins Delayed,172
+MCO,MSP->MCO,15-60mins Delayed,51
+MCO,MSP->MCO,More than 60m Delayed,30
+MSP,MSP->MEM,<0 Delay (On-Time),0
+MSP,MSP->MEM,< 15mins Delayed,0
+MSP,MSP->MEM,15-60mins Delayed,0
+MSP,MSP->MEM,More than 60m Delayed,0
+MEM,MSP->MEM,<0 Delay (On-Time),20
+MEM,MSP->MEM,< 15mins Delayed,2
+MEM,MSP->MEM,15-60mins Delayed,0
+MEM,MSP->MEM,More than 60m Delayed,1
+MSP,MSP->MIA,<0 Delay (On-Time),0
+MSP,MSP->MIA,< 15mins Delayed,0
+MSP,MSP->MIA,15-60mins Delayed,0
+MSP,MSP->MIA,More than 60m Delayed,0
+MIA,MSP->MIA,<0 Delay (On-Time),273
+MIA,MSP->MIA,< 15mins Delayed,72
+MIA,MSP->MIA,15-60mins Delayed,21
+MIA,MSP->MIA,More than 60m Delayed,8
+MSP,MSP->MKE,<0 Delay (On-Time),0
+MSP,MSP->MKE,< 15mins Delayed,0
+MSP,MSP->MKE,15-60mins Delayed,0
+MSP,MSP->MKE,More than 60m Delayed,0
+MKE,MSP->MKE,<0 Delay (On-Time),301
+MKE,MSP->MKE,< 15mins Delayed,30
+MKE,MSP->MKE,15-60mins Delayed,16
+MKE,MSP->MKE,More than 60m Delayed,2
+MSP,MSP->MSN,<0 Delay (On-Time),0
+MSP,MSP->MSN,< 15mins Delayed,0
+MSP,MSP->MSN,15-60mins Delayed,0
+MSP,MSP->MSN,More than 60m Delayed,0
+MSN,MSP->MSN,<0 Delay (On-Time),79
+MSN,MSP->MSN,< 15mins Delayed,7
+MSN,MSP->MSN,15-60mins Delayed,4
+MSN,MSP->MSN,More than 60m Delayed,2
+MSP,MSP->MSO,<0 Delay (On-Time),0
+MSP,MSP->MSO,< 15mins Delayed,0
+MSP,MSP->MSO,15-60mins Delayed,0
+MSP,MSP->MSO,More than 60m Delayed,0
+MSO,MSP->MSO,<0 Delay (On-Time),247
+MSO,MSP->MSO,< 15mins Delayed,31
+MSO,MSP->MSO,15-60mins Delayed,26
+MSO,MSP->MSO,More than 60m Delayed,11
+MSP,MSP->MSY,<0 Delay (On-Time),0
+MSP,MSP->MSY,< 15mins Delayed,0
+MSP,MSP->MSY,15-60mins Delayed,0
+MSP,MSP->MSY,More than 60m Delayed,0
+MSY,MSP->MSY,<0 Delay (On-Time),153
+MSY,MSP->MSY,< 15mins Delayed,19
+MSY,MSP->MSY,15-60mins Delayed,10
+MSY,MSP->MSY,More than 60m Delayed,5
+MSP,MSP->OMA,<0 Delay (On-Time),0
+MSP,MSP->OMA,< 15mins Delayed,0
+MSP,MSP->OMA,15-60mins Delayed,0
+MSP,MSP->OMA,More than 60m Delayed,0
+OMA,MSP->OMA,<0 Delay (On-Time),9
+OMA,MSP->OMA,< 15mins Delayed,2
+OMA,MSP->OMA,15-60mins Delayed,0
+OMA,MSP->OMA,More than 60m Delayed,0
+MSP,MSP->ORD,<0 Delay (On-Time),0
+MSP,MSP->ORD,< 15mins Delayed,0
+MSP,MSP->ORD,15-60mins Delayed,0
+MSP,MSP->ORD,More than 60m Delayed,0
+ORD,MSP->ORD,<0 Delay (On-Time),446
+ORD,MSP->ORD,< 15mins Delayed,74
+ORD,MSP->ORD,15-60mins Delayed,24
+ORD,MSP->ORD,More than 60m Delayed,23
+MSP,MSP->PBI,<0 Delay (On-Time),0
+MSP,MSP->PBI,< 15mins Delayed,0
+MSP,MSP->PBI,15-60mins Delayed,0
+MSP,MSP->PBI,More than 60m Delayed,0
+PBI,MSP->PBI,<0 Delay (On-Time),10
+PBI,MSP->PBI,< 15mins Delayed,1
+PBI,MSP->PBI,15-60mins Delayed,0
+PBI,MSP->PBI,More than 60m Delayed,1
+MSP,MSP->PDX,<0 Delay (On-Time),0
+MSP,MSP->PDX,< 15mins Delayed,0
+MSP,MSP->PDX,15-60mins Delayed,0
+MSP,MSP->PDX,More than 60m Delayed,0
+PDX,MSP->PDX,<0 Delay (On-Time),849
+PDX,MSP->PDX,< 15mins Delayed,104
+PDX,MSP->PDX,15-60mins Delayed,33
+PDX,MSP->PDX,More than 60m Delayed,8
+MSP,MSP->PHL,<0 Delay (On-Time),0
+MSP,MSP->PHL,< 15mins Delayed,0
+MSP,MSP->PHL,15-60mins Delayed,0
+MSP,MSP->PHL,More than 60m Delayed,0
+PHL,MSP->PHL,<0 Delay (On-Time),241
+PHL,MSP->PHL,< 15mins Delayed,51
+PHL,MSP->PHL,15-60mins Delayed,19
+PHL,MSP->PHL,More than 60m Delayed,7
+MSP,MSP->PHX,<0 Delay (On-Time),0
+MSP,MSP->PHX,< 15mins Delayed,0
+MSP,MSP->PHX,15-60mins Delayed,0
+MSP,MSP->PHX,More than 60m Delayed,0
+PHX,MSP->PHX,<0 Delay (On-Time),981
+PHX,MSP->PHX,< 15mins Delayed,232
+PHX,MSP->PHX,15-60mins Delayed,63
+PHX,MSP->PHX,More than 60m Delayed,16
+MSP,MSP->PIT,<0 Delay (On-Time),0
+MSP,MSP->PIT,< 15mins Delayed,0
+MSP,MSP->PIT,15-60mins Delayed,0
+MSP,MSP->PIT,More than 60m Delayed,0
+PIT,MSP->PIT,<0 Delay (On-Time),48
+PIT,MSP->PIT,< 15mins Delayed,14
+PIT,MSP->PIT,15-60mins Delayed,1
+PIT,MSP->PIT,More than 60m Delayed,1
+MSP,MSP->PSC,<0 Delay (On-Time),0
+MSP,MSP->PSC,< 15mins Delayed,0
+MSP,MSP->PSC,15-60mins Delayed,0
+MSP,MSP->PSC,More than 60m Delayed,0
+PSC,MSP->PSC,<0 Delay (On-Time),40
+PSC,MSP->PSC,< 15mins Delayed,5
+PSC,MSP->PSC,15-60mins Delayed,5
+PSC,MSP->PSC,More than 60m Delayed,0
+MSP,MSP->PSP,<0 Delay (On-Time),0
+MSP,MSP->PSP,< 15mins Delayed,0
+MSP,MSP->PSP,15-60mins Delayed,0
+MSP,MSP->PSP,More than 60m Delayed,0
+PSP,MSP->PSP,<0 Delay (On-Time),81
+PSP,MSP->PSP,< 15mins Delayed,19
+PSP,MSP->PSP,15-60mins Delayed,14
+PSP,MSP->PSP,More than 60m Delayed,0
+MSP,MSP->RAP,<0 Delay (On-Time),0
+MSP,MSP->RAP,< 15mins Delayed,0
+MSP,MSP->RAP,15-60mins Delayed,0
+MSP,MSP->RAP,More than 60m Delayed,0
+RAP,MSP->RAP,<0 Delay (On-Time),58
+RAP,MSP->RAP,< 15mins Delayed,10
+RAP,MSP->RAP,15-60mins Delayed,4
+RAP,MSP->RAP,More than 60m Delayed,2
+MSP,MSP->RDU,<0 Delay (On-Time),0
+MSP,MSP->RDU,< 15mins Delayed,0
+MSP,MSP->RDU,15-60mins Delayed,0
+MSP,MSP->RDU,More than 60m Delayed,0
+RDU,MSP->RDU,<0 Delay (On-Time),293
+RDU,MSP->RDU,< 15mins Delayed,55
+RDU,MSP->RDU,15-60mins Delayed,27
+RDU,MSP->RDU,More than 60m Delayed,13
+MSP,MSP->RNO,<0 Delay (On-Time),0
+MSP,MSP->RNO,< 15mins Delayed,0
+MSP,MSP->RNO,15-60mins Delayed,0
+MSP,MSP->RNO,More than 60m Delayed,0
+RNO,MSP->RNO,<0 Delay (On-Time),2
+RNO,MSP->RNO,< 15mins Delayed,1
+RNO,MSP->RNO,15-60mins Delayed,0
+RNO,MSP->RNO,More than 60m Delayed,0
+MSP,MSP->RSW,<0 Delay (On-Time),0
+MSP,MSP->RSW,< 15mins Delayed,0
+MSP,MSP->RSW,15-60mins Delayed,0
+MSP,MSP->RSW,More than 60m Delayed,0
+RSW,MSP->RSW,<0 Delay (On-Time),709
+RSW,MSP->RSW,< 15mins Delayed,128
+RSW,MSP->RSW,15-60mins Delayed,31
+RSW,MSP->RSW,More than 60m Delayed,15
+MSP,MSP->SAN,<0 Delay (On-Time),0
+MSP,MSP->SAN,< 15mins Delayed,0
+MSP,MSP->SAN,15-60mins Delayed,0
+MSP,MSP->SAN,More than 60m Delayed,0
+SAN,MSP->SAN,<0 Delay (On-Time),719
+SAN,MSP->SAN,< 15mins Delayed,131
+SAN,MSP->SAN,15-60mins Delayed,36
+SAN,MSP->SAN,More than 60m Delayed,11
+MSP,MSP->SAT,<0 Delay (On-Time),0
+MSP,MSP->SAT,< 15mins Delayed,0
+MSP,MSP->SAT,15-60mins Delayed,0
+MSP,MSP->SAT,More than 60m Delayed,0
+SAT,MSP->SAT,<0 Delay (On-Time),0
+SAT,MSP->SAT,< 15mins Delayed,1
+SAT,MSP->SAT,15-60mins Delayed,0
+SAT,MSP->SAT,More than 60m Delayed,0
+MSP,MSP->SAV,<0 Delay (On-Time),0
+MSP,MSP->SAV,< 15mins Delayed,0
+MSP,MSP->SAV,15-60mins Delayed,0
+MSP,MSP->SAV,More than 60m Delayed,0
+SAV,MSP->SAV,<0 Delay (On-Time),1
+SAV,MSP->SAV,< 15mins Delayed,0
+SAV,MSP->SAV,15-60mins Delayed,0
+SAV,MSP->SAV,More than 60m Delayed,0
+MSP,MSP->SEA,<0 Delay (On-Time),0
+MSP,MSP->SEA,< 15mins Delayed,0
+MSP,MSP->SEA,15-60mins Delayed,0
+MSP,MSP->SEA,More than 60m Delayed,0
+SEA,MSP->SEA,<0 Delay (On-Time),1310
+SEA,MSP->SEA,< 15mins Delayed,278
+SEA,MSP->SEA,15-60mins Delayed,74
+SEA,MSP->SEA,More than 60m Delayed,21
+MSP,MSP->SFO,<0 Delay (On-Time),0
+MSP,MSP->SFO,< 15mins Delayed,0
+MSP,MSP->SFO,15-60mins Delayed,0
+MSP,MSP->SFO,More than 60m Delayed,0
+SFO,MSP->SFO,<0 Delay (On-Time),872
+SFO,MSP->SFO,< 15mins Delayed,104
+SFO,MSP->SFO,15-60mins Delayed,47
+SFO,MSP->SFO,More than 60m Delayed,23
+MSP,MSP->SJC,<0 Delay (On-Time),0
+MSP,MSP->SJC,< 15mins Delayed,0
+MSP,MSP->SJC,15-60mins Delayed,0
+MSP,MSP->SJC,More than 60m Delayed,0
+SJC,MSP->SJC,<0 Delay (On-Time),64
+SJC,MSP->SJC,< 15mins Delayed,9
+SJC,MSP->SJC,15-60mins Delayed,3
+SJC,MSP->SJC,More than 60m Delayed,0
+MSP,MSP->SJU,<0 Delay (On-Time),0
+MSP,MSP->SJU,< 15mins Delayed,0
+MSP,MSP->SJU,15-60mins Delayed,0
+MSP,MSP->SJU,More than 60m Delayed,0
+SJU,MSP->SJU,<0 Delay (On-Time),12
+SJU,MSP->SJU,< 15mins Delayed,1
+SJU,MSP->SJU,15-60mins Delayed,4
+SJU,MSP->SJU,More than 60m Delayed,0
+MSP,MSP->SLC,<0 Delay (On-Time),0
+MSP,MSP->SLC,< 15mins Delayed,0
+MSP,MSP->SLC,15-60mins Delayed,0
+MSP,MSP->SLC,More than 60m Delayed,0
+SLC,MSP->SLC,<0 Delay (On-Time),1525
+SLC,MSP->SLC,< 15mins Delayed,269
+SLC,MSP->SLC,15-60mins Delayed,81
+SLC,MSP->SLC,More than 60m Delayed,21
+MSP,MSP->SMF,<0 Delay (On-Time),0
+MSP,MSP->SMF,< 15mins Delayed,0
+MSP,MSP->SMF,15-60mins Delayed,0
+MSP,MSP->SMF,More than 60m Delayed,0
+SMF,MSP->SMF,<0 Delay (On-Time),323
+SMF,MSP->SMF,< 15mins Delayed,61
+SMF,MSP->SMF,15-60mins Delayed,13
+SMF,MSP->SMF,More than 60m Delayed,7
+MSP,MSP->SNA,<0 Delay (On-Time),0
+MSP,MSP->SNA,< 15mins Delayed,0
+MSP,MSP->SNA,15-60mins Delayed,0
+MSP,MSP->SNA,More than 60m Delayed,0
+SNA,MSP->SNA,<0 Delay (On-Time),326
+SNA,MSP->SNA,< 15mins Delayed,65
+SNA,MSP->SNA,15-60mins Delayed,16
+SNA,MSP->SNA,More than 60m Delayed,8
+MSP,MSP->SRQ,<0 Delay (On-Time),0
+MSP,MSP->SRQ,< 15mins Delayed,0
+MSP,MSP->SRQ,15-60mins Delayed,0
+MSP,MSP->SRQ,More than 60m Delayed,0
+SRQ,MSP->SRQ,<0 Delay (On-Time),9
+SRQ,MSP->SRQ,< 15mins Delayed,0
+SRQ,MSP->SRQ,15-60mins Delayed,0
+SRQ,MSP->SRQ,More than 60m Delayed,1
+MSP,MSP->STL,<0 Delay (On-Time),0
+MSP,MSP->STL,< 15mins Delayed,0
+MSP,MSP->STL,15-60mins Delayed,0
+MSP,MSP->STL,More than 60m Delayed,0
+STL,MSP->STL,<0 Delay (On-Time),137
+STL,MSP->STL,< 15mins Delayed,15
+STL,MSP->STL,15-60mins Delayed,9
+STL,MSP->STL,More than 60m Delayed,7
+MSP,MSP->STT,<0 Delay (On-Time),0
+MSP,MSP->STT,< 15mins Delayed,0
+MSP,MSP->STT,15-60mins Delayed,0
+MSP,MSP->STT,More than 60m Delayed,0
+STT,MSP->STT,<0 Delay (On-Time),3
+STT,MSP->STT,< 15mins Delayed,0
+STT,MSP->STT,15-60mins Delayed,2
+STT,MSP->STT,More than 60m Delayed,0
+MSP,MSP->TPA,<0 Delay (On-Time),0
+MSP,MSP->TPA,< 15mins Delayed,0
+MSP,MSP->TPA,15-60mins Delayed,0
+MSP,MSP->TPA,More than 60m Delayed,0
+TPA,MSP->TPA,<0 Delay (On-Time),550
+TPA,MSP->TPA,< 15mins Delayed,86
+TPA,MSP->TPA,15-60mins Delayed,24
+TPA,MSP->TPA,More than 60m Delayed,7
+MSP,MSP->TUS,<0 Delay (On-Time),0
+MSP,MSP->TUS,< 15mins Delayed,0
+MSP,MSP->TUS,15-60mins Delayed,0
+MSP,MSP->TUS,More than 60m Delayed,0
+TUS,MSP->TUS,<0 Delay (On-Time),69
+TUS,MSP->TUS,< 15mins Delayed,13
+TUS,MSP->TUS,15-60mins Delayed,3
+TUS,MSP->TUS,More than 60m Delayed,1
+MSY,MSY->MSP,<0 Delay (On-Time),157
+MSY,MSY->MSP,< 15mins Delayed,21
+MSY,MSY->MSP,15-60mins Delayed,6
+MSY,MSY->MSP,More than 60m Delayed,5
+MSP,MSY->MSP,<0 Delay (On-Time),0
+MSP,MSY->MSP,< 15mins Delayed,0
+MSP,MSY->MSP,15-60mins Delayed,0
+MSP,MSY->MSP,More than 60m Delayed,0
+OMA,OMA->MSP,<0 Delay (On-Time),8
+OMA,OMA->MSP,< 15mins Delayed,1
+OMA,OMA->MSP,15-60mins Delayed,0
+OMA,OMA->MSP,More than 60m Delayed,0
+MSP,OMA->MSP,<0 Delay (On-Time),0
+MSP,OMA->MSP,< 15mins Delayed,0
+MSP,OMA->MSP,15-60mins Delayed,0
+MSP,OMA->MSP,More than 60m Delayed,0
+ORD,ORD->MSP,<0 Delay (On-Time),429
+ORD,ORD->MSP,< 15mins Delayed,75
+ORD,ORD->MSP,15-60mins Delayed,42
+ORD,ORD->MSP,More than 60m Delayed,18
+MSP,ORD->MSP,<0 Delay (On-Time),0
+MSP,ORD->MSP,< 15mins Delayed,0
+MSP,ORD->MSP,15-60mins Delayed,0
+MSP,ORD->MSP,More than 60m Delayed,0
+PBI,PBI->MSP,<0 Delay (On-Time),7
+PBI,PBI->MSP,< 15mins Delayed,2
+PBI,PBI->MSP,15-60mins Delayed,1
+PBI,PBI->MSP,More than 60m Delayed,1
+MSP,PBI->MSP,<0 Delay (On-Time),0
+MSP,PBI->MSP,< 15mins Delayed,0
+MSP,PBI->MSP,15-60mins Delayed,0
+MSP,PBI->MSP,More than 60m Delayed,0
+PDX,PDX->MSP,<0 Delay (On-Time),807
+PDX,PDX->MSP,< 15mins Delayed,121
+PDX,PDX->MSP,15-60mins Delayed,53
+PDX,PDX->MSP,More than 60m Delayed,9
+MSP,PDX->MSP,<0 Delay (On-Time),0
+MSP,PDX->MSP,< 15mins Delayed,0
+MSP,PDX->MSP,15-60mins Delayed,0
+MSP,PDX->MSP,More than 60m Delayed,0
+PHL,PHL->MSP,<0 Delay (On-Time),265
+PHL,PHL->MSP,< 15mins Delayed,21
+PHL,PHL->MSP,15-60mins Delayed,22
+PHL,PHL->MSP,More than 60m Delayed,9
+MSP,PHL->MSP,<0 Delay (On-Time),0
+MSP,PHL->MSP,< 15mins Delayed,0
+MSP,PHL->MSP,15-60mins Delayed,0
+MSP,PHL->MSP,More than 60m Delayed,0
+PHX,PHX->MSP,<0 Delay (On-Time),1011
+PHX,PHX->MSP,< 15mins Delayed,207
+PHX,PHX->MSP,15-60mins Delayed,48
+PHX,PHX->MSP,More than 60m Delayed,20
+MSP,PHX->MSP,<0 Delay (On-Time),0
+MSP,PHX->MSP,< 15mins Delayed,0
+MSP,PHX->MSP,15-60mins Delayed,0
+MSP,PHX->MSP,More than 60m Delayed,0
+PIT,PIT->MSP,<0 Delay (On-Time),56
+PIT,PIT->MSP,< 15mins Delayed,7
+PIT,PIT->MSP,15-60mins Delayed,0
+PIT,PIT->MSP,More than 60m Delayed,1
+MSP,PIT->MSP,<0 Delay (On-Time),0
+MSP,PIT->MSP,< 15mins Delayed,0
+MSP,PIT->MSP,15-60mins Delayed,0
+MSP,PIT->MSP,More than 60m Delayed,0
+PSC,PSC->MSP,<0 Delay (On-Time),39
+PSC,PSC->MSP,< 15mins Delayed,8
+PSC,PSC->MSP,15-60mins Delayed,2
+PSC,PSC->MSP,More than 60m Delayed,0
+MSP,PSC->MSP,<0 Delay (On-Time),0
+MSP,PSC->MSP,< 15mins Delayed,0
+MSP,PSC->MSP,15-60mins Delayed,0
+MSP,PSC->MSP,More than 60m Delayed,0
+PSP,PSP->MSP,<0 Delay (On-Time),78
+PSP,PSP->MSP,< 15mins Delayed,23
+PSP,PSP->MSP,15-60mins Delayed,10
+PSP,PSP->MSP,More than 60m Delayed,2
+MSP,PSP->MSP,<0 Delay (On-Time),0
+MSP,PSP->MSP,< 15mins Delayed,0
+MSP,PSP->MSP,15-60mins Delayed,0
+MSP,PSP->MSP,More than 60m Delayed,0
+RAP,RAP->MSP,<0 Delay (On-Time),64
+RAP,RAP->MSP,< 15mins Delayed,5
+RAP,RAP->MSP,15-60mins Delayed,4
+RAP,RAP->MSP,More than 60m Delayed,1
+MSP,RAP->MSP,<0 Delay (On-Time),0
+MSP,RAP->MSP,< 15mins Delayed,0
+MSP,RAP->MSP,15-60mins Delayed,0
+MSP,RAP->MSP,More than 60m Delayed,0
+RDU,RDU->MSP,<0 Delay (On-Time),311
+RDU,RDU->MSP,< 15mins Delayed,42
+RDU,RDU->MSP,15-60mins Delayed,21
+RDU,RDU->MSP,More than 60m Delayed,15
+MSP,RDU->MSP,<0 Delay (On-Time),0
+MSP,RDU->MSP,< 15mins Delayed,0
+MSP,RDU->MSP,15-60mins Delayed,0
+MSP,RDU->MSP,More than 60m Delayed,0
+RNO,RNO->MSP,<0 Delay (On-Time),1
+RNO,RNO->MSP,< 15mins Delayed,2
+RNO,RNO->MSP,15-60mins Delayed,0
+RNO,RNO->MSP,More than 60m Delayed,0
+MSP,RNO->MSP,<0 Delay (On-Time),0
+MSP,RNO->MSP,< 15mins Delayed,0
+MSP,RNO->MSP,15-60mins Delayed,0
+MSP,RNO->MSP,More than 60m Delayed,0
+RSW,RSW->MSP,<0 Delay (On-Time),653
+RSW,RSW->MSP,< 15mins Delayed,154
+RSW,RSW->MSP,15-60mins Delayed,58
+RSW,RSW->MSP,More than 60m Delayed,16
+MSP,RSW->MSP,<0 Delay (On-Time),0
+MSP,RSW->MSP,< 15mins Delayed,0
+MSP,RSW->MSP,15-60mins Delayed,0
+MSP,RSW->MSP,More than 60m Delayed,0
+SAN,SAN->MSP,<0 Delay (On-Time),667
+SAN,SAN->MSP,< 15mins Delayed,179
+SAN,SAN->MSP,15-60mins Delayed,43
+SAN,SAN->MSP,More than 60m Delayed,6
+MSP,SAN->MSP,<0 Delay (On-Time),0
+MSP,SAN->MSP,< 15mins Delayed,0
+MSP,SAN->MSP,15-60mins Delayed,0
+MSP,SAN->MSP,More than 60m Delayed,0
+SAV,SAV->MSP,<0 Delay (On-Time),1
+SAV,SAV->MSP,< 15mins Delayed,0
+SAV,SAV->MSP,15-60mins Delayed,0
+SAV,SAV->MSP,More than 60m Delayed,0
+MSP,SAV->MSP,<0 Delay (On-Time),0
+MSP,SAV->MSP,< 15mins Delayed,0
+MSP,SAV->MSP,15-60mins Delayed,0
+MSP,SAV->MSP,More than 60m Delayed,0
+SEA,SEA->MSP,<0 Delay (On-Time),1310
+SEA,SEA->MSP,< 15mins Delayed,247
+SEA,SEA->MSP,15-60mins Delayed,102
+SEA,SEA->MSP,More than 60m Delayed,18
+MSP,SEA->MSP,<0 Delay (On-Time),0
+MSP,SEA->MSP,< 15mins Delayed,0
+MSP,SEA->MSP,15-60mins Delayed,0
+MSP,SEA->MSP,More than 60m Delayed,0
+SFO,SFO->MSP,<0 Delay (On-Time),919
+SFO,SFO->MSP,< 15mins Delayed,89
+SFO,SFO->MSP,15-60mins Delayed,31
+SFO,SFO->MSP,More than 60m Delayed,7
+MSP,SFO->MSP,<0 Delay (On-Time),0
+MSP,SFO->MSP,< 15mins Delayed,0
+MSP,SFO->MSP,15-60mins Delayed,0
+MSP,SFO->MSP,More than 60m Delayed,0
+SJC,SJC->MSP,<0 Delay (On-Time),57
+SJC,SJC->MSP,< 15mins Delayed,9
+SJC,SJC->MSP,15-60mins Delayed,7
+SJC,SJC->MSP,More than 60m Delayed,2
+MSP,SJC->MSP,<0 Delay (On-Time),0
+MSP,SJC->MSP,< 15mins Delayed,0
+MSP,SJC->MSP,15-60mins Delayed,0
+MSP,SJC->MSP,More than 60m Delayed,0
+SJU,SJU->MSP,<0 Delay (On-Time),16
+SJU,SJU->MSP,< 15mins Delayed,0
+SJU,SJU->MSP,15-60mins Delayed,1
+SJU,SJU->MSP,More than 60m Delayed,0
+MSP,SJU->MSP,<0 Delay (On-Time),0
+MSP,SJU->MSP,< 15mins Delayed,0
+MSP,SJU->MSP,15-60mins Delayed,0
+MSP,SJU->MSP,More than 60m Delayed,0
+SLC,SLC->MSP,<0 Delay (On-Time),1393
+SLC,SLC->MSP,< 15mins Delayed,347
+SLC,SLC->MSP,15-60mins Delayed,114
+SLC,SLC->MSP,More than 60m Delayed,40
+MSP,SLC->MSP,<0 Delay (On-Time),0
+MSP,SLC->MSP,< 15mins Delayed,0
+MSP,SLC->MSP,15-60mins Delayed,0
+MSP,SLC->MSP,More than 60m Delayed,0
+SMF,SMF->MSP,<0 Delay (On-Time),210
+SMF,SMF->MSP,< 15mins Delayed,134
+SMF,SMF->MSP,15-60mins Delayed,43
+SMF,SMF->MSP,More than 60m Delayed,15
+MSP,SMF->MSP,<0 Delay (On-Time),0
+MSP,SMF->MSP,< 15mins Delayed,0
+MSP,SMF->MSP,15-60mins Delayed,0
+MSP,SMF->MSP,More than 60m Delayed,0
+SNA,SNA->MSP,<0 Delay (On-Time),275
+SNA,SNA->MSP,< 15mins Delayed,93
+SNA,SNA->MSP,15-60mins Delayed,36
+SNA,SNA->MSP,More than 60m Delayed,10
+MSP,SNA->MSP,<0 Delay (On-Time),0
+MSP,SNA->MSP,< 15mins Delayed,0
+MSP,SNA->MSP,15-60mins Delayed,0
+MSP,SNA->MSP,More than 60m Delayed,0
+SRQ,SRQ->MSP,<0 Delay (On-Time),8
+SRQ,SRQ->MSP,< 15mins Delayed,0
+SRQ,SRQ->MSP,15-60mins Delayed,2
+SRQ,SRQ->MSP,More than 60m Delayed,0
+MSP,SRQ->MSP,<0 Delay (On-Time),0
+MSP,SRQ->MSP,< 15mins Delayed,0
+MSP,SRQ->MSP,15-60mins Delayed,0
+MSP,SRQ->MSP,More than 60m Delayed,0
+STL,STL->MSP,<0 Delay (On-Time),138
+STL,STL->MSP,< 15mins Delayed,16
+STL,STL->MSP,15-60mins Delayed,6
+STL,STL->MSP,More than 60m Delayed,8
+MSP,STL->MSP,<0 Delay (On-Time),0
+MSP,STL->MSP,< 15mins Delayed,0
+MSP,STL->MSP,15-60mins Delayed,0
+MSP,STL->MSP,More than 60m Delayed,0
+STT,STT->MSP,<0 Delay (On-Time),2
+STT,STT->MSP,< 15mins Delayed,2
+STT,STT->MSP,15-60mins Delayed,1
+STT,STT->MSP,More than 60m Delayed,0
+MSP,STT->MSP,<0 Delay (On-Time),0
+MSP,STT->MSP,< 15mins Delayed,0
+MSP,STT->MSP,15-60mins Delayed,0
+MSP,STT->MSP,More than 60m Delayed,0
+TPA,TPA->MSP,<0 Delay (On-Time),525
+TPA,TPA->MSP,< 15mins Delayed,109
+TPA,TPA->MSP,15-60mins Delayed,23
+TPA,TPA->MSP,More than 60m Delayed,10
+MSP,TPA->MSP,<0 Delay (On-Time),0
+MSP,TPA->MSP,< 15mins Delayed,0
+MSP,TPA->MSP,15-60mins Delayed,0
+MSP,TPA->MSP,More than 60m Delayed,0
+TUS,TUS->MSP,<0 Delay (On-Time),59
+TUS,TUS->MSP,< 15mins Delayed,15
+TUS,TUS->MSP,15-60mins Delayed,9
+TUS,TUS->MSP,More than 60m Delayed,2
+MSP,TUS->MSP,<0 Delay (On-Time),0
+MSP,TUS->MSP,< 15mins Delayed,0
+MSP,TUS->MSP,15-60mins Delayed,0
+MSP,TUS->MSP,More than 60m Delayed,0

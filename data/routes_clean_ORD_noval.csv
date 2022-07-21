@@ -1,0 +1,113 @@
+node,route,delay,n_flights
+ATL,ATL->ORD,<0 Delay (On-Time),1561
+ATL,ATL->ORD,< 15mins Delayed,368
+ATL,ATL->ORD,15-60mins Delayed,166
+ATL,ATL->ORD,More than 60m Delayed,72
+ORD,ATL->ORD,<0 Delay (On-Time),0
+ORD,ATL->ORD,< 15mins Delayed,0
+ORD,ATL->ORD,15-60mins Delayed,0
+ORD,ATL->ORD,More than 60m Delayed,0
+DTW,DTW->ORD,<0 Delay (On-Time),355
+DTW,DTW->ORD,< 15mins Delayed,45
+DTW,DTW->ORD,15-60mins Delayed,38
+DTW,DTW->ORD,More than 60m Delayed,21
+ORD,DTW->ORD,<0 Delay (On-Time),0
+ORD,DTW->ORD,< 15mins Delayed,0
+ORD,DTW->ORD,15-60mins Delayed,0
+ORD,DTW->ORD,More than 60m Delayed,0
+JFK,JFK->ORD,<0 Delay (On-Time),15
+JFK,JFK->ORD,< 15mins Delayed,0
+JFK,JFK->ORD,15-60mins Delayed,1
+JFK,JFK->ORD,More than 60m Delayed,0
+ORD,JFK->ORD,<0 Delay (On-Time),0
+ORD,JFK->ORD,< 15mins Delayed,0
+ORD,JFK->ORD,15-60mins Delayed,0
+ORD,JFK->ORD,More than 60m Delayed,0
+LGA,LGA->ORD,<0 Delay (On-Time),1210
+LGA,LGA->ORD,< 15mins Delayed,112
+LGA,LGA->ORD,15-60mins Delayed,78
+LGA,LGA->ORD,More than 60m Delayed,66
+ORD,LGA->ORD,<0 Delay (On-Time),0
+ORD,LGA->ORD,< 15mins Delayed,0
+ORD,LGA->ORD,15-60mins Delayed,0
+ORD,LGA->ORD,More than 60m Delayed,0
+MSP,MSP->ORD,<0 Delay (On-Time),431
+MSP,MSP->ORD,< 15mins Delayed,68
+MSP,MSP->ORD,15-60mins Delayed,43
+MSP,MSP->ORD,More than 60m Delayed,25
+ORD,MSP->ORD,<0 Delay (On-Time),0
+ORD,MSP->ORD,< 15mins Delayed,0
+ORD,MSP->ORD,15-60mins Delayed,0
+ORD,MSP->ORD,More than 60m Delayed,0
+ORD,ORD->ATL,<0 Delay (On-Time),0
+ORD,ORD->ATL,< 15mins Delayed,0
+ORD,ORD->ATL,15-60mins Delayed,0
+ORD,ORD->ATL,More than 60m Delayed,0
+ATL,ORD->ATL,<0 Delay (On-Time),1664
+ATL,ORD->ATL,< 15mins Delayed,356
+ATL,ORD->ATL,15-60mins Delayed,76
+ATL,ORD->ATL,More than 60m Delayed,77
+ORD,ORD->DTW,<0 Delay (On-Time),0
+ORD,ORD->DTW,< 15mins Delayed,0
+ORD,ORD->DTW,15-60mins Delayed,0
+ORD,ORD->DTW,More than 60m Delayed,0
+DTW,ORD->DTW,<0 Delay (On-Time),331
+DTW,ORD->DTW,< 15mins Delayed,71
+DTW,ORD->DTW,15-60mins Delayed,38
+DTW,ORD->DTW,More than 60m Delayed,21
+ORD,ORD->JFK,<0 Delay (On-Time),0
+ORD,ORD->JFK,< 15mins Delayed,0
+ORD,ORD->JFK,15-60mins Delayed,0
+ORD,ORD->JFK,More than 60m Delayed,0
+JFK,ORD->JFK,<0 Delay (On-Time),10
+JFK,ORD->JFK,< 15mins Delayed,6
+JFK,ORD->JFK,15-60mins Delayed,0
+JFK,ORD->JFK,More than 60m Delayed,0
+ORD,ORD->LGA,<0 Delay (On-Time),0
+ORD,ORD->LGA,< 15mins Delayed,0
+ORD,ORD->LGA,15-60mins Delayed,0
+ORD,ORD->LGA,More than 60m Delayed,0
+LGA,ORD->LGA,<0 Delay (On-Time),1120
+LGA,ORD->LGA,< 15mins Delayed,183
+LGA,ORD->LGA,15-60mins Delayed,81
+LGA,ORD->LGA,More than 60m Delayed,87
+ORD,ORD->MSP,<0 Delay (On-Time),0
+ORD,ORD->MSP,< 15mins Delayed,0
+ORD,ORD->MSP,15-60mins Delayed,0
+ORD,ORD->MSP,More than 60m Delayed,0
+MSP,ORD->MSP,<0 Delay (On-Time),422
+MSP,ORD->MSP,< 15mins Delayed,83
+MSP,ORD->MSP,15-60mins Delayed,39
+MSP,ORD->MSP,More than 60m Delayed,20
+ORD,ORD->SEA,<0 Delay (On-Time),0
+ORD,ORD->SEA,< 15mins Delayed,0
+ORD,ORD->SEA,15-60mins Delayed,0
+ORD,ORD->SEA,More than 60m Delayed,0
+SEA,ORD->SEA,<0 Delay (On-Time),491
+SEA,ORD->SEA,< 15mins Delayed,85
+SEA,ORD->SEA,15-60mins Delayed,24
+SEA,ORD->SEA,More than 60m Delayed,25
+ORD,ORD->SLC,<0 Delay (On-Time),0
+ORD,ORD->SLC,< 15mins Delayed,0
+ORD,ORD->SLC,15-60mins Delayed,0
+ORD,ORD->SLC,More than 60m Delayed,0
+SLC,ORD->SLC,<0 Delay (On-Time),703
+SLC,ORD->SLC,< 15mins Delayed,107
+SLC,ORD->SLC,15-60mins Delayed,41
+SLC,ORD->SLC,More than 60m Delayed,27
+SEA,SEA->ORD,<0 Delay (On-Time),476
+SEA,SEA->ORD,< 15mins Delayed,81
+SEA,SEA->ORD,15-60mins Delayed,50
+SEA,SEA->ORD,More than 60m Delayed,20
+ORD,SEA->ORD,<0 Delay (On-Time),0
+ORD,SEA->ORD,< 15mins Delayed,0
+ORD,SEA->ORD,15-60mins Delayed,0
+ORD,SEA->ORD,More than 60m Delayed,0
+SLC,SLC->ORD,<0 Delay (On-Time),603
+SLC,SLC->ORD,< 15mins Delayed,148
+SLC,SLC->ORD,15-60mins Delayed,85
+SLC,SLC->ORD,More than 60m Delayed,40
+ORD,SLC->ORD,<0 Delay (On-Time),0
+ORD,SLC->ORD,< 15mins Delayed,0
+ORD,SLC->ORD,15-60mins Delayed,0
+ORD,SLC->ORD,More than 60m Delayed,0

@@ -1,0 +1,185 @@
+---
+title: "Untitled"
+author: "Robert Duc Bui"
+date: "11/22/2021"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+d1 <- read_csv("L_AIRPORT.csv")
+d2 <- read_csv("L_AIRPORT_ID.csv")
+```
+
+```{r}
+d <- d2 %>%
+  inner_join(d1, by = "Description") %>%
+  select(
+    ID = Code.x,
+    code = Code.y
+  )
+```
+
+```{r}
+write_csv(d,"airports.csv")
+```
+
+```{r}
+library(data.table)
+library(readxl)
+
+file.list <- list.files(pattern = "\\d+.+", full.names = TRUE )
+
+tables <- lapply(file.list, read_csv)
+df <- do.call(rbind,tables)
+```
+
+```{r}
+df %>%
+  left_join(d, by = c("ORIGIN_AIRPORT_ID" = "ID")) %>%
+  rename(origin = code) %>%
+  left_join(d, by = c("DEST_AIRPORT_ID" = "ID")) %>%
+  rename(dest = code) %>%
+  filter(origin == "ORD" | dest == "ORD") %>%
+  mutate(
+    route = paste(origin,"->",dest,sep=""),
+    delay = case_when(origin == "ORD" ~ DEP_DELAY,
+                      dest == "ORD" ~ ARR_DELAY),
+    ontime   = ifelse(delay < 0, 1, 0),
+    delay0    = ifelse(delay >= 0 & delay < 15, 1, 0),
+    delay15   = ifelse(delay >= 15& delay < 60, 1, 0),
+    delay1hr  = ifelse(delay >= 60, 1,0)
+  )%>%
+  group_by(origin, dest, route)%>%
+  summarise(
+    ontime = sum(ontime,na.rm=T),
+    delay0 = sum(delay0,na.rm=T),
+    delay15 = sum(delay15,na.rm=T),
+    delay1hr = sum(delay1hr,na.rm=T)
+    ) %>%
+  pivot_longer(
+    cols = -c(route,ontime,delay0,delay15,delay1hr),
+    names_to = "name",
+    values_to = "node"
+  ) %>%
+  select(node,route,ontime,delay0,delay15,delay1hr) %>%
+  transmute(
+    node = node,
+    route = route,
+    `<0 Delay (On-Time)` = ifelse(node == "ORD", 0, ontime),
+    `< 15mins Delayed` = ifelse(node == "ORD", 0, delay0),
+    `15-60mins Delayed` = ifelse(node == "ORD", 0, delay15),
+    `More than 60m Delayed` = ifelse(node == "ORD",0,delay1hr)
+  ) %>%
+  pivot_longer(
+    cols = -c(node,route),
+    names_to = "delay",
+    values_to = "n_flights"
+  ) %>%
+  write_csv("routes_clean_ORD_noval.csv")
+  
+df %>%
+  left_join(d, by = c("ORIGIN_AIRPORT_ID" = "ID")) %>%
+  rename(origin = code) %>%
+  left_join(d, by = c("DEST_AIRPORT_ID" = "ID")) %>%
+  rename(dest = code) %>%
+  filter(origin == "MDW" | dest == "MDW") %>%
+  mutate(
+    route = paste(origin,"->",dest,sep=""),
+    delay = case_when(origin == "MDW" ~ DEP_DELAY,
+                      dest == "MDW" ~ ARR_DELAY),
+    ontime   = ifelse(delay < 0, 1, 0),
+    delay0    = ifelse(delay >= 0 & delay < 15, 1, 0),
+    delay15   = ifelse(delay >= 15& delay < 60, 1, 0),
+    delay1hr  = ifelse(delay >= 60, 1,0)
+  )%>%
+  group_by(origin, dest, route)%>%
+  summarise(
+    ontime = sum(ontime,na.rm=T),
+    delay0 = sum(delay0,na.rm=T),
+    delay15 = sum(delay15,na.rm=T),
+    delay1hr = sum(delay1hr,na.rm=T)
+    ) %>%
+  pivot_longer(
+    cols = -c(route,ontime,delay0,delay15,delay1hr),
+    names_to = "name",
+    values_to = "node"
+  ) %>%
+  select(node,route,ontime,delay0,delay15,delay1hr) %>%
+  transmute(
+    node = node,
+    route = route,
+    `<0 Delay (On-Time)` = ifelse(node == "MDW", 0, ontime),
+    `< 15mins Delayed` = ifelse(node == "MDW", 0, delay0),
+    `15-60mins Delayed` = ifelse(node == "MDW", 0, delay15),
+    `More than 60m Delayed` = ifelse(node == "MDW",0,delay1hr)
+  ) %>%
+  pivot_longer(
+    cols = -c(node,route),
+    names_to = "delay",
+    values_to = "n_flights"
+  ) %>%
+
+  write_csv("routes_clean_MDW_noval.csv")
+
+df %>%
+  left_join(d, by = c("ORIGIN_AIRPORT_ID" = "ID")) %>%
+  rename(origin = code) %>%
+  left_join(d, by = c("DEST_AIRPORT_ID" = "ID")) %>%
+  rename(dest = code) %>%
+  filter(origin == "MSP" | dest == "MSP") %>%
+  mutate(
+    route = paste(origin,"->",dest,sep=""),
+    delay = case_when(origin == "MSP" ~ DEP_DELAY,
+                      dest == "MSP" ~ ARR_DELAY),
+    ontime   = ifelse(delay < 0, 1, 0),
+    delay0    = ifelse(delay >= 0 & delay < 15, 1, 0),
+    delay15   = ifelse(delay >= 15& delay < 60, 1, 0),
+    delay1hr  = ifelse(delay >= 60, 1,0)
+  )%>%
+  group_by(origin, dest, route)%>%
+  summarise(
+    ontime = sum(ontime,na.rm=T),
+    delay0 = sum(delay0,na.rm=T),
+    delay15 = sum(delay15,na.rm=T),
+    delay1hr = sum(delay1hr,na.rm=T)
+    ) %>%
+  pivot_longer(
+    cols = -c(route,ontime,delay0,delay15,delay1hr),
+    names_to = "name",
+    values_to = "node"
+  ) %>%
+  select(node,route,ontime,delay0,delay15,delay1hr) %>%
+  transmute(
+    node = node,
+    route = route,
+    `<0 Delay (On-Time)` = ifelse(node == "MSP", 0, ontime),
+    `< 15mins Delayed` = ifelse(node == "MSP", 0, delay0),
+    `15-60mins Delayed` = ifelse(node == "MSP", 0, delay15),
+    `More than 60m Delayed` = ifelse(node == "MSP",0,delay1hr)
+  ) %>%
+  pivot_longer(
+    cols = -c(node,route),
+    names_to = "delay",
+    values_to = "n_flights"
+  ) %>%
+  write_csv("routes_clean_MSP_noval.csv")
+```
+
+```{r}
+write_csv(d_route, "routes_clean.csv")
+```
+
+```{r}
+d_route %>%
+  filter(str_detect(route,"ORD")==1) %>%
+  mutate(
+    ontime5 = ifelse(node == "ORD", NA, ontime5),
+    delay5 = ifelse(node == "ORD", NA, delay5)
+  ) %>%
+  write_csv("routes_clean_ORD_noval.csv")
+```
+

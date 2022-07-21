@@ -1,0 +1,17 @@
+node,route,delay,n_flights
+ATL,ATL->MDW,<0 Delay (On-Time),534
+ATL,ATL->MDW,< 15mins Delayed,92
+ATL,ATL->MDW,15-60mins Delayed,36
+ATL,ATL->MDW,More than 60m Delayed,17
+MDW,ATL->MDW,<0 Delay (On-Time),0
+MDW,ATL->MDW,< 15mins Delayed,0
+MDW,ATL->MDW,15-60mins Delayed,0
+MDW,ATL->MDW,More than 60m Delayed,0
+MDW,MDW->ATL,<0 Delay (On-Time),0
+MDW,MDW->ATL,< 15mins Delayed,0
+MDW,MDW->ATL,15-60mins Delayed,0
+MDW,MDW->ATL,More than 60m Delayed,0
+ATL,MDW->ATL,<0 Delay (On-Time),587
+ATL,MDW->ATL,< 15mins Delayed,55
+ATL,MDW->ATL,15-60mins Delayed,19
+ATL,MDW->ATL,More than 60m Delayed,21
